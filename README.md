@@ -18,8 +18,6 @@ Vectorization: TF-IDF, CountVectorizer
 
 Similarity Algorithm: Cosine Similarity
 
-Optional: Flask (for web deployment), HTML/CSS (for UI)
-
 **Key Highlights
 **
 Built a recommender engine that returns the top 5–10 similar movies to the input movie.
