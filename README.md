@@ -12,8 +12,7 @@ TF-IDF Vectorization on movie overviews and tags
 Clean and interactive user interface for entering movie choices and getting suggestions
 
 
-**Technologies Used
-**
+**Technologies Used**
 
 Python, Pandas, Scikit-Learn, Numpy
 
@@ -21,8 +20,7 @@ Vectorization: TF-IDF, CountVectorizer
 
 Similarity Algorithm: Cosine Similarity
 
-**Key Highlights
-**
+**Key Highlights**
 
 Built a recommender engine that returns the top 5–10 similar movies to the input movie.
 
