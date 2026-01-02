@@ -1,4 +1,4 @@
-# movie-recommender-system
+# Movie-Recommender-System
 This project is a Machine Learning–based Movie Recommender System that suggests personalized movie recommendations to users based on their viewing preferences and behaviors. The goal is to mimic the recommendation engines used by streaming platforms like Netflix or Amazon Prime.
 
 ## Features :-
