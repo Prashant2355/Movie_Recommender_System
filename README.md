@@ -1,7 +1,7 @@
 # 🎬 Movie-Recommender-System
 A **content-based Movie Recommender System** that suggests personalized movie recommendations by analyzing movie metadata and textual features. This project demonstrates how data analysis and NLP techniques can be used to improve content discovery—similar to recommendation systems used by streaming platforms.
 
-# 🔍 Project Overview
+## 🔍 Project Overview
 The goal of this project is to analyze movie metadata and build a recommendation engine that returns similar movies based on user-selected titles. The system leverages text vectorization and similarity analysis to generate meaningful recommendations.
 
 ## 🚀 Key Features :-
