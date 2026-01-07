@@ -1,39 +1,41 @@
-# Movie-Recommender-System
-This project is a Machine Learning–based Movie Recommender System that suggests personalized movie recommendations to users based on their viewing preferences and behaviors. The goal is to mimic the recommendation engines used by streaming platforms like Netflix or Amazon Prime.
+# 🎬 Movie-Recommender-System
+A **content-based Movie Recommender System** that suggests personalized movie recommendations by analyzing movie metadata and textual features. This project demonstrates how data analysis and NLP techniques can be used to improve content discovery—similar to recommendation systems used by streaming platforms.
 
-## Features :-
+# 🔍 Project Overview
+The goal of this project is to analyze movie metadata and build a recommendation engine that returns similar movies based on user-selected titles. The system leverages text vectorization and similarity analysis to generate meaningful recommendations.
 
-- Content-Based Filtering using movie metadata (genre, cast, director, etc.)
+## 🚀 Key Features :-
 
-- **Cosine Similarity** for measuring movie similarity
+- Content-based filtering using movie metadata (genres, cast, crew, overview)
 
-- **TF-IDF Vectorization** on movie overviews and tags
+- Text vectorization using **TF-IDF**
 
-- Clean and interactive user interface for entering movie choices and getting suggestions
+- Similarity measurement using **Cosine Similarity**
+
+- Returns **Top 5–10** movie recommendations for a given input
+
+- Clean and interactive interface for user input
 
 
-## Technologies Used :-
+## 🛠️ Tech Stack
 
-- **Python, Pandas, Scikit-Learn, Numpy**
+- **Programming:** Python
 
-- **Vectorization: TF-IDF, CountVectorizer**
+- **Data Analysis:** Pandas, NumPy
 
-- **Similarity Algorithm: Cosine Similarity**
+- **Machine Learning / NLP:** Scikit-learn
 
-## Key Highlights :-
+- **Vectorization:** TF-IDF, CountVectorizer
 
+- **Similarity Metric:** Cosine Similarity
+
+## 📊 Key Highlights :-
 - Built a **recommender engine** that returns the **top** 5–10 similar movies to the input movie.
-
 - Cleaned and processed large movie datasets using **pandas**.
-
 - Vectorized textual data like genres and overviews using **TF-IDF** for similarity calculations.
 
-## How to Run :-
+## 📁 Dataset
 
-- Clone the repo.
+- **TMDb 5000 Movie Dataset** (or similar)
 
-- Run movie_recommender.ipynb to see the recommendation engine in action
-
-## Dataset :-
-
-- Used **TMDb 5000** Movie Dataset or similar, containing movie metadata and overviews.
+- Contains movie metadata such as title, genre, cast, crew, and overview
