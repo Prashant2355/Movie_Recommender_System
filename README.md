@@ -12,7 +12,7 @@ The goal of this project is to analyze movie metadata and build a recommendation
 
 - Similarity measurement using **Cosine Similarity**
 
-- Returns **Top 5–10** movie recommendations for a given input
+- Returns **Top 5** movie recommendations for a given input
 
 - Clean and interactive interface for user input
 
