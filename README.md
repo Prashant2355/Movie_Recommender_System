@@ -30,7 +30,7 @@ The goal of this project is to analyze movie metadata and build a recommendation
 - **Similarity Metric:** Cosine Similarity
 
 ## 📊 Key Highlights :-
-- Built a **recommender engine** that returns the **top** 5–10 similar movies to the input movie.
+- Built a **recommender engine** that returns the **top** 5 similar movies to the input movie.
 - Cleaned and processed large movie datasets using **pandas**.
 - Vectorized textual data like genres and overviews using **TF-IDF** for similarity calculations.
 
