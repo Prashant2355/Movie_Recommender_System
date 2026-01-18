@@ -1,41 +1,82 @@
 # 🎬 Movie-Recommender-System
-A **content-based Movie Recommender System** that suggests personalized movie recommendations by analyzing movie metadata and textual features. This project demonstrates how data analysis and NLP techniques can be used to improve content discovery—similar to recommendation systems used by streaming platforms.
 
-## 🔍 Project Overview
-The goal of this project is to analyze movie metadata and build a recommendation engine that returns similar movies based on user-selected titles. The system leverages text vectorization and similarity analysis to generate meaningful recommendations.
+## 📌 Project Overview
 
-## 🚀 Key Features :-
+This project implements a **Movie Recommender System** that suggests relevant movies based on a user’s input movie selection. It leverages text-based similarity techniques using movie metadata to compute and rank recommendations, helping users discover films similar to those they know and enjoy.
 
-- Content-based filtering using movie metadata (genres, cast, crew, overview)
+-------------------------------------------------------------------------------------------
 
-- Text vectorization using **TF-IDF**
+## 🚀 Features
 
-- Similarity measurement using **Cosine Similarity**
+  - Takes a **movie title** as input from the user
 
-- Returns **Top 5** movie recommendations for a given input
+  - Computes similarity between movies using vectorization techniques
 
-- Clean and interactive interface for user input
+  - Recommends a list of top similar movies
 
+  - Deployed as an interactive web app using **Flask** (app.py)
 
-## 🛠️ Tech Stack
+  - Backend logic implemented in Python with machine learning techniques
 
-- **Programming:** Python
+-------------------------------------------------------------------------------------------
 
-- **Data Analysis:** Pandas, NumPy
+## 🧠 How It Works
 
-- **Machine Learning / NLP:** Scikit-learn
+1. **Data Preparation:** Movie metadata (titles, genres, etc.) is cleaned and combined into text features.
 
-- **Vectorization:** TF-IDF, CountVectorizer
+2. **Feature Encoding:** Movie metadata is transformed into numerical vectors using TF-IDF and related techniques to capture semantic similarity.
 
-- **Similarity Metric:** Cosine Similarity
+3. **Similarity Computation:** Cosine similarity is computed between movie vectors to measure closeness.
 
-## 📊 Key Highlights :-
-- Built a **recommender engine** that returns the **top** 5 similar movies to the input movie.
-- Cleaned and processed large movie datasets using **pandas**.
-- Vectorized textual data like genres and overviews using **TF-IDF** for similarity calculations.
+4. **Recommendation:** The top N most similar movies are returned for a user-selected movie.
 
-## 📁 Dataset
+5. **Deployment:** A simple Flask application hosts the recommendation logic and UI.
 
-- **TMDb 5000 Movie Dataset** (or similar)
+-------------------------------------------------------------------------------------------
 
-- Contains movie metadata such as title, genre, cast, crew, and overview
+## 🛠️ Tools & Technologies
+
+| Area                   | Technologies                |
+| ---------------------- | --------------------------- |
+| Programming            | Python                      |
+| Data Manipulation      | pandas, numpy               |
+| Feature Engineering    | sklearn (TF-IDF vectorizer) |
+| Similarity Computation | cosine similarity           |
+| Visualization          | seaborn, matplotlib         |
+| Deployment             | Flask (app.py)              |
+| Notebook Environment   | Jupyter Notebook            |
+
+-------------------------------------------------------------------------------------------
+
+## 🖥️ Demo / How to Use
+
+**Run locally**
+
+1. Clone the repository
+   - git clone https://github.com/Prashant2355/movie-recommender-system
+     cd movie-recommender-system
+     
+2. Install dependencies
+   - pip install -r requirements.txt
+
+3. Start the Flask app
+
+   - python app.py
+
+4. Visit:
+
+   - http://127.0.0.1:5000
+
+5. Enter a movie title and get recommendations!
+
+-------------------------------------------------------------------------------------------
+
+## 📊 Key Insights
+
+  - Movie recommendations are based on **content similarity** using text features — **titles, keywords, genres**, etc.
+
+  - The system ranks movies based on **cosine similarity** scores.
+
+  - Pre-computing the similarity matrix allows **fast** lookup at runtime.
+
+  - You can easily extend this to larger datasets or hybrid techniques (collaborative filtering, deep learning, etc.).
