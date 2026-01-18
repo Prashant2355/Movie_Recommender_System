@@ -36,6 +36,7 @@ This project implements a **Movie Recommender System** that suggests relevant mo
 
 ## 📁 Repository Structure
 
+```
 movie-recommender-system/
 │
 ├── Movie_Recommender_System.ipynb     # Core model development & EDA
@@ -44,6 +45,7 @@ movie-recommender-system/
 ├── similarity.pkl                     # Precomputed similarity matrix (pickle format)
 ├── requirements.txt                   # Dependencies
 └── README.md                          # Project overview (this file)
+```
 
 ⚠️ Due to GitHub size limits, download similarity.pkl here:
 👉 [Download Link](https://drive.google.com/file/d/1ivssogVryFOXAVMQfKzp9n-iOfYy1XjA/view?usp=sharing)
