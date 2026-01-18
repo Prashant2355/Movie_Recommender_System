@@ -54,7 +54,7 @@ This project implements a **Movie Recommender System** that suggests relevant mo
 
 1. Clone the repository
    - git clone https://github.com/Prashant2355/movie-recommender-system
-     cd movie-recommender-system
+   - cd movie-recommender-system
      
 2. Install dependencies
    - pip install -r requirements.txt
