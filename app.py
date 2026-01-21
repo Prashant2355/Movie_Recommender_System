@@ -59,4 +59,10 @@ if st.button('Recommend'):
         st.image(posters[3])
     with col5:
         st.text(names[4])
+
         st.image(posters[4])
+
+if __name__ == "__main__":
+    import os
+    port = int(os.environ.get("PORT", 8501))
+    st.run(server_port=port, server_address="0.0.0.0")
