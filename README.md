@@ -28,7 +28,7 @@ This project implements a **Movie Recommender System** that suggests relevant mo
 
 3. **Similarity Computation:** Cosine similarity is computed between movie vectors to measure closeness.
 
-4. **Recommendation:** The top N most similar movies are returned for a user-selected movie.
+4. **Recommendation:** The top 5 most similar movies are returned for a user-selected movie.
 
 5. **Deployment:** A simple Flask application hosts the recommendation logic and UI.
 
